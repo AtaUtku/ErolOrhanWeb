@@ -1,0 +1,70 @@
+body{
+background: #F24343;
+
+}
+
+@font-face{
+    font-family: selfie;
+    src: url(selfie.otf);
+}
+
+.nav{
+ 	font-family: 'selfie';
+ 	list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+
+.nav li{
+    display:inline;
+}
+
+.nav a{
+    display:inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 50px;
+}
+
+.nav a:hover{
+	color: lightgrey;
+}
+
+.disabled{
+	pointer-events: none;
+}
+
+.disabled a{
+	color:black;
+}
+
+.worktype {
+	font-family: 'selfie';
+ 	list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+
+.worktype a{
+	text-decoration: none;
+}
+
+.worktype li{
+    display:inline;
+}
+
+.worktype a{
+    display:inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 50px;
+    
+}
+
+.worktype a:hover{
+	color: lightgrey;
+}
